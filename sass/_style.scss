@@ -1,24 +1,111 @@
 .navbar{
 	background-color: $red;
+	display: inline-block;
+	text-align: center!important;
+	padding: 0;
+	width: $col-12;
+
+}
+
+.navbar__element{
+	
+	display: inline-block;
+	font-size:15px;
+	padding: 0 30px 10px 30px;
+	margin-bottom: 15px;
+	 &--img{
+	 	display: inline-block;
+		width: 5%;
+		padding-top: 20px;
+		padding-right: 20px;
+		margin-bottom: -20px;
+	 }
+
+}
+.element__link{
+	color: $white;
+	text-decoration: none;
+
+	&--btn{
+		background-color: $blue;
+		color: $white;
+		border-radius: 20px;
+		border: none;
+		padding: 12px;
+	}
+
 }
 .profile{
-	background-color: $blue;
-	.profile__img img{
-		width: 50%;
-		display: inline-block;
+	margin: 10px 0px 10px 300px;
 
+	&__img{
+		width: 20%;
+		display: inline-block;
+		margin: 40px;	
+	}
+	&__content{
+		width: $col-6;
+		display: inline-block;
+		color: $white;
+		&--name{
+			color:$green;
+		}
+		&--button{
+			background-color:$green;
+			border-radius: 20px;
+			border: none;
+			padding: 12px 30px;	
+			color: $white;
+			font-size: 16px;		
+		}
+	
+	}
+	&__links{
+		padding-left: 90px;
+		padding-top: 40px;
+		width:$col-6;
+		margin: 20px;
+
+
+		&__icon{
+			padding: 10px;
+			width:8%;
+		}
+
+	}
+	
+}	
+.footer{
+	color: $white;
+	background-color: $footer-color;
+	padding: 30px;
+	margin-top: 60px;
+	text-align: center!important;
+	&__about{
+		width: $col-4;
+		display: inline-block;
+		text-align: justify;
+		&__icons{
+			display: inline-block;
+  			width: 35px;
+			background-color: #33383b;
+			border-radius: 2px;
+			font-size: 20px;
+			color: $green;
+			text-align: center;
+			line-height: 35px;
+			margin-right: 3px;
+			margin-bottom: 5px;
+		}
+	}
+	&__contact{
+		margin-left: 30px;
+		width: $col-6;
+		display: inline-block;
 	}
 }
 
-.col-1  { width:5.583333333333333%; }
-.col-2  { width:14.16666666666667%; }
-.col-3  { width:22.75%; }
-.col-4  { width:31.33333333333333%; }
-.col-5  { width:39.91666666666667%; }
-.col-6  { width:48.5%; }
-.col-7  { width:57.08333333333333%; }
-.col-8  { width:65.66666666666666%; }
-.col-9  { width:74.25%; }
-.col-10 { width:82.83333333333333%; }
-.col-11 { width:91.41666666666666%; }
-.col-12 { width:100%; }
+
+
+
+

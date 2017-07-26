@@ -14,54 +14,71 @@
 </head>
 <body>
 <!-- NAVBAR -->
-	<div class="navbar col-12">
-		<div class="navbar__img">
-			<img src="img/softtware-engineer.png" alt="">
+		<div class="navbar">
+			<img class="navbar__element--img" src="img/people.png" alt="">
+		
+			<div class="navbar__element">
+				<button class="element__link--btn"><i class="fa fa-user fa-fw" aria-hidden="true"></i> PROFILE</button>
+			</div>
+			<div class="navbar__element">
+				<a class="element__link" chref="#"><i class="fa fa-trophy fa-fw" aria-hidden="true"></i> SKILLS</a>
+			</div>
+			<div class="navbar__element">
+				<a class="element__link" href="#"><i class="fa fa-picture-o fa-fw" aria-hidden="true"></i> WORK</a>
+			</div>
+			<div class="navbar__element">
+				<a class="element__link" href="#"><i class="fa fa-file-pdf-o fa-fw" aria-hidden="true"></i> RESUME</a>
+			</div>
 		</div>
-		<div class="navbar__element">
-			<button><i class="fa fa-user" aria-hidden="true"></i> PROFILE</button>
-		</div>
-		<div class="navbar__element">
-			<a href="#"><i class="fa fa-trophy" aria-hidden="true"></i> SKILLS</a>
-		</div>
-		<div class="navbar__element">
-			<a href=""><i class="fa fa-picture-o" aria-hidden="true"></i> WORK</a>
-		</div>
-		<div class="navbar__element"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> RESUME</div>
-	</div>
 <!-- PROFILE -->
 	<div class="profile">
-		<div class="profile__img col-6">
-			<img src="img/Ninja-icon.png" alt="">
-		</div>
-		<div class="profile__content col-6">
-			<div class="profile__content--name">
-				<h1>Juan Dela Cruz</h1>
+		<img class="profile__img" src="img/Ninja-icon.png" alt="">
+		<div class="profile__content">
+			<div class="profile__content">
+				<h1 class="profile__content--name">Juan Dela Cruz</h1>
 			</div>
 			<div class="profile__content--profesion">
 				<h2>Web & Graphics Designer</h2>
 				
 			</div>
 			<div class="profile__content--about">
-				<p>Hello i am Juan Dela Cruz Web and Graphics Designer from Philipines. If you hace something to be done just call my name and i will be there. c:</p>
+				<p style="text-align: justify;">Hello i am Juan Dela Cruz Web and Graphics Designer from Philipines. If you hace something to be done just call my name and i will be there. c:</p>
 			</div>
-			<div class="profile__content--button">
-				<button><i class="fa fa-paper-plane-o" aria-hidden="true"></i>HIRE ME</button>
-			</div>
+	
+			<button class="profile__content--button"><i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i> HIRE ME</button>
+			
 
 		</div>
 		<div class="profile__links">
-			<img src="img/facebook.png" alt="">
-			<img src="img/twitter (1).png" alt="">
-			<img src="img/google-plus (1).png" alt="">
-			<img src="img/pinterest.png" alt="">
-			<img src="img/stumbleupon.png" alt="">
-			<img src="img/dribbble.png" alt="">
+			<img class="profile__links__icon" src="img/facebook.png" alt="">
+			<img class="profile__links__icon" src="img/twitter (1).png" alt="">
+			<img class="profile__links__icon" src="img/google-plus (1).png" alt="">
+			<img class="profile__links__icon" src="img/pinterest.png" alt="">
+			<img class="profile__links__icon" src="img/stumbleupon.png" alt="">
+			<img class="profile__links__icon" src="img/dribbble.png" alt="">
 		</div>
 	</div>
 <!-- FOOTER-->
-	<div class="footer">
-		
-	</div>
+	<footer class="footer">
+  		<div class="footer__about">
+    		<p>
+      			<span> <strong>About Me </strong></span> <br> <br> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, ratione deserunt molestias nihil itaque tempora quam iusto placeat sit, doloremque incidunt ullam quidem vel doloribus, vitae natus! Ipsam, in, neque.
+    		</p>
+    		
+      			<a class="footer__about__icons" href="#"><i class="fa fa-linkedin"></i></a>
+      			<a class="footer__about__icons" href="#"><i class="fa fa-instagram"></i></a>
+    		
+  		</div>
+  		<div class="footer__contact">
+    		<div>
+      			<i class="fa fa-map-marker footer__about__icons"></i>
+      			<p><span> Street name and number</span> City, Country</p>
+    		</div>
+    		<div>
+     			<i class="fa fa-phone footer__about__icons"></i>
+      			<p> (+00) 0000 000 000</p>
+    		</div>
+ 		</div>
+</footer>
 </body>
 </html>
